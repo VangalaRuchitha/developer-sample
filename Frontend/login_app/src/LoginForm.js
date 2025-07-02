@@ -20,7 +20,7 @@ const LoginForm = (props) => {
 			<input type="text" id="name" value={login} onChange={(e) => setLogin(e.target.value)} />
 			<label htmlFor="password">Password</label>
 			<input type="password" id="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-			<button type="submit">Continue</button
+			<button type="submit">Continue</button>
 		</form>
 	);
 };
